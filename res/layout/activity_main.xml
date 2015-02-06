@@ -4,9 +4,21 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/Wel_Logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/str_Wel_Logo"
+        android:src="@drawable/logo_welcome" />
+
+<!--     <TextView -->
+<!--         android:id="@+id/Wel_Text" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="20dp" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:gravity="center" -->
+<!--         android:text="@string/str_Wel_Text" -->
+<!--         android:textSize="12sp"  android:textColor="@color/Gray"/> -->
 
 </RelativeLayout>

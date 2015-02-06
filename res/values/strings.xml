@@ -3,5 +3,6 @@
 
     <string name="app_name">我的博客园</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="str_Wel_Logo">博客园起始Logo</string>
+    <string name="str_Wel_Text">博客园 - 开发者的网上家园</string>
 </resources>
